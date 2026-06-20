@@ -56,3 +56,8 @@ if st.button('Predict Diagnosis'):
         st.success('✅ Prediction: No Asthma Detected')
 
     st.write(f'**Confidence:** {max(probability) * 100:.1f}%')
+streamlit
+joblib
+numpy
+pandas
+scikit-learn
